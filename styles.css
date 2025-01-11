@@ -1,0 +1,55 @@
+body {
+    background: #fgf7fe;
+}
+
+.container {
+background: white;
+max-width: 600px;
+margin: 60px auto;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 30px rgba(65, 50, 100, 0.08);
+}
+
+header {
+    border-bottom: 1px solid #f9f7fe;
+}
+
+main {
+    padding: 30px 0;
+}
+
+.current-weather {
+    display: flex;
+    justify-content: space-between;
+}
+
+.current-city {
+    font-size: 38px;
+    font-weight: 900;
+    margin: 0;
+}
+
+.current-details {
+    color: rgba(39, 33, 66, 0.4);
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 24px;
+}
+
+.current-details strong {
+    color: #f65282;
+}
+
+.current-temp-icon{
+    position: relative;
+    top: -8px;
+    font-size: 40px;
+    margin-right:10px;
+}
+footer {
+    text-align: center;
+    border-top:1px solid #f9f7fe;
+    padding-top: 15px;
+    color: rgba(39,33, 66, 0.4);
+}
